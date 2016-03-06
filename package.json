@@ -11,6 +11,7 @@
   "dependencies": {
     "kerberos": "0.0.18",
     "mongodb": "^2.0.55",
-    "mongoskin": "^2.0.3"
+    "mongoskin": "^2.0.3",
+    "q": "^1.4.1"
   }
 }
