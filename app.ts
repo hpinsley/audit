@@ -17,7 +17,7 @@ coll.find({}).sort({ time: -1}).toArray((e, records: IAuditRecord[]) => {
     else {
         for (let r of records) {
             let d = JSON.stringify(r.details);
-            console.log(`${r.time}: ${r.username} - ${r.recType}: ${d}`);
+            console.log(`${r.time}|${r.username}|${r.recType}|${d}`);
 
         }
         db.close();
